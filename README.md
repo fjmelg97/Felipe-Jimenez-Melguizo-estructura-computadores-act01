@@ -4,3 +4,4 @@ Repositorio para la carga de los scripts base y optimizado en formato .asm del p
 ## Archivos:
 1. **programa_base.asm:** Script proporcionado para la actividad.
 2. **programa_optimizado.asm:** Script con la optimización aplicada con base en el script original.
+3. **Laboratorio_1_FJM.pdf:** Documento con resultados de la actividad del laboratorio.
