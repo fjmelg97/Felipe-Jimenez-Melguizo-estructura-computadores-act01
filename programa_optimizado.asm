@@ -46,7 +46,7 @@ loop:
     addi $t3, $t3, 1      # i = i + 1 - Se calcula i + 1 entre el cálculo de X[i] * A y el valor total de Y[i]
     
     # --- Cálculo del valor total de Y[i]
-    addu $t8, $t7, $t1    # t8 = t7 + B    (ELIMINADO Riesgo de datos: Dependencia mul-addu)
+    addu $t8, $t7, $t1    # t8 = t7 + B    (REDUCIDO Riesgo de datos: Dependencia mul-addu)
     
     # --- Almacenamiento de resultado ---
     sw $t8, 0($t9)        # Guardar resultado en Y[i]
